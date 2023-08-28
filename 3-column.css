@@ -15,16 +15,7 @@ body {
     height: 100vh;
 }
 
-.sedans {
-    background-color: hsl(31, 77%, 52%);
-    justify-content: center;
-    align-items: center;
-    margin: 30px 0px 0px 0px;
-    width: 250px;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
 
-}
 
 h1 {
     font-family: 'Big Shoulders Display', cursive;
@@ -40,6 +31,18 @@ p {
     color: hsla(0, 0%, 100%, 0.75);
     margin: 35px;
     padding-bottom: 20px;
+}
+
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 0px 0px;
+    width: 250px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
 }
 
 .suvs {
@@ -125,14 +128,10 @@ button {
 @media only screen and (max-width:750px) {
     
 
-
     .wrapper {
-        display: block;
-        background-color: white;
-        width: 750px;
-        height: 200vh;
-        padding-left: 200px;
-        
+        display: flex;
+        flex-direction: column;
+        height: 100%;
     }
 
     .sedans, .suvs, .luxury {

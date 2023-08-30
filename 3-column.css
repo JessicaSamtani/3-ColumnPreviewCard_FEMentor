@@ -36,6 +36,8 @@ p {
 
 .sedans {
     background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 30px 0px 0px 0px;
@@ -47,6 +49,8 @@ p {
 
 .suvs {
     background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 30px 0px 0px 0px;
@@ -56,6 +60,8 @@ p {
 
 .luxury {
     background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 30px 0px 0px 0px;
@@ -72,9 +78,7 @@ button {
     border-style: none;
     font-family: 'Lexend Deca', sans-serif;
     color: black;
-    display: block;
-    align-self:first baseline;
-    margin-left: 20px;
+    align-self: baseline;
     margin-top: 20px;
     margin-bottom: 40px;
     cursor: pointer;
